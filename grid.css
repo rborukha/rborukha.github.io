@@ -1,0 +1,65 @@
+/****************************
+************ GRID ***********
+*****************************/
+@media (min-width: 1200px){
+  .container {
+  width: 95%;
+  margin: 0 auto;
+}
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+}
+.row {
+  margin-bottom: 30px;
+}
+
+.row:after {
+  display: block;
+  content: '.';
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+
+[class*="span"] {
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  margin-right: 2%;
+}
+
+[class*="span"]:last-child {
+  margin-right: 0;
+  float: left;
+}
+
+
+.span1  { width: 6.5% }
+.span2  { width: 15%  }
+.span3  { width: 23.5%}
+.span4  { width: 32%  }
+.span5  { width: 40.5%}
+.span6  { width: 49%  }
+.span7  { width: 57.5%}
+.span8  { width: 66%  }
+.span9  { width: 74.5%}
+.span10 { width: 83%  }
+.span11 { width: 91.5%}
+.span12 { width: 100% }
+
+.offset1  { margin-left: 6.5% }
+.offset2  { margin-left: 15%  }
+.offset3  { margin-left: 23.5%}
+.offset4  { margin-left: 32%  }
+.offset5  { margin-left: 40.5%}
+.offset6  { margin-left: 49%  }
+.offset7  { margin-left: 57.5%}
+.offset8  { margin-left: 66%  }
+.offset9  { margin-left: 74.5%}
+.offset10 { margin-left: 83%  }
+.offset11 { margin-left: 91.5%}
+.offset12 { margin-left: 100% }
