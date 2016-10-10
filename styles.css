@@ -1959,7 +1959,10 @@ h5 {
 	.top-panel {
 		display: none;
 	}
-
+	.span5.blockquotes {
+		width: 100%;
+		margin: 0;
+	}
 	.about-header .span6 {
 	margin-right: 2%;
 }
@@ -2106,6 +2109,7 @@ h2 {
 #menu {
 	margin-top: 200px;
 }
+
 }
 
 .copyright .container div {
