@@ -1457,7 +1457,7 @@ h5 {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-device-width: 400px) {
 	h2 {
 		font-size: 30px;
 	}
